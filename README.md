@@ -1,19 +1,15 @@
 #PMUnitTestSample
----
 Unit test sample application for iOS  
 
 ##Test Framework
----
 * SenTestingKit.framework  
 
 ## Document
----
 * [Apple develper document](https://developer.apple.com/jp/devcenter/ios/library/documentation/Xcode/Conceptual/ios_development_workflow/#135-Unit_Testing_Applications/unit_testing_applications.html)
 
 ## Sample
----
 
-```
+```objective-c
 TestClass *testClass = [[TestClass alloc] init];
 STAssertNotNil(testClass, @"test class is nil"); 
     
@@ -29,7 +25,6 @@ STAssertEqualObjects(isString, @"String", @"isString is not String");
 ```
 
 ##License
----
 Copyright &copy; 2013 Peromasamune  
 Distributed under the [MIT License][mit].
 [MIT]: http://www.opensource.org/licenses/mit-license.php  
